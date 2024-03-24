@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yam's Personal Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="fontawesomecdn" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav >
+            <div class="nav-logo">
+                <img class="logoimg" src="images/logo.png" alt="logo">
+            </div>
+            <div class="nav-links">
+                <ul id="menu">
+                    <li ><a href="#home">HOME</a></li>
+                    <li ><a href="#about"></a>ABOUT</a></li>
+                    <li class="cv"><a href="#cv"></a>CURRICULUM VITAE</a>
+                        <ul class="dropdown1">
+                            <li><a href="" >EDUCATION</a></li>
+                            <li><a href="" >EXPERIENCE</a></li>
+                            <li><a href="" >SKILLS</a></li>
+                            <li><a href="" >RESEARCH AND PUBLICATIONS</a></li>
+                            <li><a href="" >AWARDS AND ACHIEVEMENTS</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#contact"></a>CONTACT</a></li>
+                    <li><input type="text" placeholder="  Search here..."></li>
+                </ul>
+            </div>
+            <div class="nav-btn">
+                <button id="menuIcon" onclick="openMenu()">MENU</button>
+                <button id="closeIcon" onclick="closeMenu()">CLOSE</button>
+            </div>
+                
+            
+        </nav>
+    </header>
+    <div class="top-container"> 
+        <h1>I'm Yam.</h1>
+        <p class="profession">a Civil Engineer.</p>
+        <img class="city-blueprint" src="images/city-bluprint.png" alt="construction-image">
+    </div>  
+    
+    <div class="middle-container">
+        <div class="profile">
+            <img src="images\profileCE.png" alt="Profile Photo" height="200px" class="profilepic">
+            <h2>Hello!</h2>
+            <p class="introduction">This is Yam, a driven civil engineer with a knack for designing innovative structures that withstand severe disasters when built in the real world. Whether it’s a soaring skyscraper or a sturdy bridge, I thrive on turning architectural dreams into reality. Welcome to my corner of the web, where concrete meets creativity! 🏗️💡</p>
+        </div>
+        <hr>
+        <div class="my-motivation">
+            <h2>My Motivation:</h2>
+            <div class="mot-row">
+            <img class="motivationimg" src="images\time-per.png" alt="mot-image1">
+            <p>As a civil engineer, I find immense excitement in shaping the physical world around us. My passion is fueled by the confluence of creativity and pragmatism. I consider myself to be an architect of progress, whether I'm creating sustainable structures, robust bridges, or effective transit networks. My motivation for every day comes from the possibility of improving people's lives as well as rendering cities safer.</p> <br>
+                <p></p>Simultaneously, my curiosity about programming languages feels like I've stumbled onto a wealth of opportunities. Python has grown to be my reliable buddy thanks to its sophisticated syntax and adaptability. I explore machine learning tools like TensorFlow and PyTorch as I dive into data science. It's thrilling to design algorithms that can identify patterns, forecast results, and do jobs automatically. As I write programming, I picture a time where technology completely changes people's lives and improves intelligence and productivity.</p> <br>
+                <p></p>In this dual pursuit, I bridge the tangible and the digital, constructing both physical structures and virtual solutions. Whether I’m sketching blueprints or crafting elegant code, my motivation lies in leaving a positive mark on the world—one line of code or one steel beam at a time.
+                 </p>
+        </div>
+             
+        <hr>   
+          
+    <div id="contact" class="bottom-container">
+        <h2>Get In Touch.</h2>
+        <h3>Let’s engineer our vision into reality.</h3>
+        <p>Contact Information: <br>📧 yamkumaroli99@gmail.com <br>📞+977-9863457232, 9828010108</p>
+    
+        <a class="footer-link" href="https://www.linkedin.com/in/yam-kumar-oli-7ab456258/">LinkedIn</a>
+        <a class="footer-link" href="https://www.facebook.com/aimkumar99/">Facebook</a>
+        <a class="footer-link" href="https://www.instagram.com/iamyam99/?hl=en">Instagram</a>
+        <p class="copyright">© 2024 Yam Kumar Oli.</p>
+           
+    </div>
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
